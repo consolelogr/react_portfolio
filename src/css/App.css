@@ -1,22 +1,16 @@
 *{margin:0}
+body{background:#222}
 .App {
-  
   text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
-  overflow:hidden;
 
 }
 .title{
-  transform: rotate(-1deg) translate(0, 2rem);
   font-size: 2rem;
   text-shadow: #000 2px 1px;
 }
 .header{
-  transform: rotate(1deg) translate(-100px, -3rem);
   background:#222;
   min-height: 10rem;
-  min-width: 120vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,8 +20,13 @@
   overflow:hidden;
   box-shadow: 0 0 100px ;
 }
+
+
 button{
   background:steelblue;
 }
 
-
+.about{padding: 2rem}
+.webpages img{
+  max-width: 100vw;
+}
