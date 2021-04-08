@@ -1,12 +1,9 @@
-import '../css/App.css';
-const Header = () => {
+const Header = (props) => {
     return (
-        <div>
-         <h1>
-          REACT <br/> PORTFOLIO <br/> 2021
-        </h1>
+        <div className="header">
+         <div className="title">{props.title}</div>         
         </div>
-    )
+     )
 }
 
 export default Header
