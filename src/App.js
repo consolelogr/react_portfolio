@@ -7,7 +7,7 @@ function App() {
   return (
    <div className="App">
    <Header title='REACT  PORTFOLIO' />
-   <About aboutText='verkkosivuja' />
+   <About aboutText='Verkkosivuja - Teemu V' />
    <Webpages />
    </div>
   );

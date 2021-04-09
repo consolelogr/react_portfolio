@@ -1,4 +1,4 @@
-*{margin:0}
+*{margin:0;padding:0;border:none;outline:0;}
 body{background:#222}
 .App {
   text-align: center;
@@ -10,23 +10,34 @@ body{background:#222}
 }
 .header{
   background:#222;
-  min-height: 10rem;
+  min-height: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #ddd;
-  overflow:hidden;
-  box-shadow: 0 0 100px ;
 }
-
+.aboutText{
+  padding: 0.5rem;
+  width: 17rem;
+  margin:0 auto;
+  color:#eee;
+}
 
 button{
   background:steelblue;
 }
 
-.about{padding: 2rem}
+.about{padding: 1rem}
+
 .webpages img{
   max-width: 100vw;
+  font-size:0;
+  margin-top: 3rem;
+  border-top:20px groove steelblue;
+  
+}
+.webpages{
+  background: #0000;
 }

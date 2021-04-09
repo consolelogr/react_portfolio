@@ -2,9 +2,9 @@
 const Webpages = (props) => {
     return (
         <div className="webpages">
-         <div className="webpages_image">
-        <img src="../pics/satus.png" alt="satus"/></div>  
-               
+            <a href="https://consolelogger.com" className="webpages_image"><img src="../pics/cl.png" alt="consolelogger"/></a>
+            <a href="https://satusalonen.fi" className="webpages_image"> <img src="../pics/satus.png" alt="satus"/>  </a>
+                           
         </div>
      )
 }
