@@ -6,8 +6,8 @@ import Webpages from './components/Webpages';
 function App() {
   return (
    <div className="App">
-   <Header title='REACT  PORTFOLIO' />
-   <About aboutText='Verkkosivuja - Teemu V' />
+   <Header title='PORTFOLIO' />
+   <About  />
    <Webpages />
    </div>
   );

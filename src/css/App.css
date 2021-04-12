@@ -5,7 +5,8 @@ body{background:#222}
 
 }
 .title{
-  font-size: 2rem;
+  margin-top: 2rem;
+  font-size: 3.5rem;
   text-shadow: #000 2px 1px;
 }
 .header{
@@ -19,17 +20,34 @@ body{background:#222}
   color: #ddd;
 }
 .aboutText{
+  
   padding: 0.5rem;
   width: 17rem;
-  margin:0 auto;
   color:#eee;
+  letter-spacing: 0.3REM;
+  margin: 0 auto;
+  margin-top: -1rem;
 }
+#span1{
+  color:#4644EF;
+  font-weight: bolder;
+}
+#span2{
+  color:#6D00B2;
+  font-weight: bolder;
+}
+
+#span3{
+  color:#FF0000;
+  font-weight: bolder;
+}
+
 
 button{
   background:steelblue;
 }
 
-.about{padding: 1rem}
+.about{padding: 0.5rem}
 
 .webpages img{
   max-width: 100vw;
@@ -40,4 +58,10 @@ button{
 }
 .webpages{
   background: #0000;
+}
+
+@media screen and (min-width: 900px) {
+ .webpages img{
+  max-width: 800px;
+ }
 }
